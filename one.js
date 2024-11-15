@@ -7,7 +7,7 @@ let myPromise = new Promise((resolve,reject) =>{
         else{
             reject("You cannot vote")
         }
-    },2000)
+    })
 
 myPromise.then((Message) =>{
     console.log(Message)
